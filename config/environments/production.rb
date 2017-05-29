@@ -87,7 +87,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { :host => 'https://lit-reaches-20556.herokuapp.com/'}
 
   config.action_mailer.delivery_method = :smtp
-  ActionMailer::base.smtp_settings = {
+  ActionMailer::Base.smtp_settings = {
     address: "smtpcloud.suhu.com",
     port: 25,
     domain: "heroku.com",
