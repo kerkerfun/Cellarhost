@@ -117,7 +117,7 @@ body {
 
 //----三大圖的內文----
 .title1 {
-margin-bottom: 295px;
+margin-bottom: 210px;
 letter-spacing:   5px;//调整文字间距
 }
 //----三大圖的內文----
@@ -140,15 +140,14 @@ letter-spacing:   5px;//调整文字间距
 
 
 .jumbotron {
-  background-image:url('http://i.imgur.com/wzzgFqx.jpg');
+  background-image:url('http://i.imgur.com/JoCFQ5i.jpg');
   background-repeat: no-repeat;
-  background-size:contain;
-  padding-bottom: -500px;
-  margin-bottom: -500px;
+  background-size: auto;
+  text-align: center;
 }
 
 .jumbotron2 {
-  background-image:url('http://i.imgur.com/mrHiURB.jpg');
+  background-image:url('http://i.imgur.com/lGkscS5.jpg');
   background-repeat: no-repeat;
   background-size:auto;
   // padding-bottom: 500px;
@@ -192,9 +191,11 @@ letter-spacing:   5px;//调整文字间距
   }
 
  .container-fluid .jumbotron  {
-   padding-bottom: 380px;//内部的底部边距，这样按钮不会很靠近底部了
-   margin: 0 -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
+  //  padding-bottom: 395px;//内部的底部边距，这样按钮不会很靠近底部了
+   margin-top: 30px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
    border-radius: 0;//圆角为0
+  //  border: 10px solid hsla(0,0%,100%,.5);
+  //  background-clip: padding-box;
  }
 
  .jumbotron2{
@@ -209,7 +210,7 @@ letter-spacing:   5px;//调整文字间距
 
   //---------Background---------
  body {
-    background: url("http://i.imgur.com/5wDbcx9.jpg");
+    background: url("http://i.imgur.com/anzKCEa.jpg");
     //这个设定的背景图片可以应用到除了首页这类已经专门设定背景的所有网站页面，免去重复设定背景的烦恼。
 
     background-size: cover;
