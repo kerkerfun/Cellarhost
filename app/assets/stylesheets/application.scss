@@ -208,32 +208,14 @@ letter-spacing:   5px;//调整文字间距
 }
 
 
-  .panel-body {
-      position: absolute;
-      left: -15px;
-      top: 0%;
-      width: 115%;
-      text-align: center;
-      margin-top: -540px;
-    }
 
-  .center {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      width: 100%;
-      text-align: center;
-      font-size: 20px;
-      color: white;
-
-  }
 
     .panel-body2 {
         position: absolute;
-        left: -2px;
+        left: 0px;
         top: 0%;
         text-align: center;
-        margin-top: -270px;
+        // margin-top: -630px;
       }
 
       .center2 {
@@ -246,12 +228,21 @@ letter-spacing:   5px;//调整文字间距
           color: white;
     }
 
-
-        .panel-body3 {
+    .panel-body3 {
             position: absolute;
-            left: -2px;
+            left: 0px;
             top: 0%;
             text-align: center;
-            margin-top: 73px;
-            margin-bottom: 300px;
-          }
+            // margin-top: -280px;
+            // margin-bottom: 230px
+      }
+
+    .center3 {
+              position: absolute;
+              left: 0;
+              top: 50%;
+              width: 100%;
+              text-align: center;
+              font-size: 20px;
+              color: white;
+      }
