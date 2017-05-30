@@ -140,16 +140,17 @@ letter-spacing:   5px;//调整文字间距
 
 
 .jumbotron {
-  background-image:url('http://i.imgur.com/JoCFQ5i.jpg');
+  background-image:url('http://i.imgur.com/KHgsY9F.png');
   background-repeat: no-repeat;
   background-size: auto;
+  background-color: rgba(0,0,0,0.3);
   text-align: center;
 }
 
 .jumbotron2 {
-  background-image:url('http://i.imgur.com/lGkscS5.jpg');
+  background-image:url('http://i.imgur.com/ifLRjlv.jpg');
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size:cover;
   // padding-bottom: 500px;
 }
 
