@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap/alert
-
 //= require_tree .
 $(window).scroll(function () {
   if ($(this).scrollTop() > 125) {
