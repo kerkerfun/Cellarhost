@@ -44,10 +44,10 @@ body {
   }
   //---------navbar動態---------
   .navbar-default {
-   background-color: rgba(0,0,0,0.1);
+   background-color: rgba(0,0,0,0.6);
 
    &.show_bgcolor {
-     background-color: rgba(0,0,0,0.5);
+     background-color: rgba(0,0,0,0.1);
    }
  }
  //---------navbar動態---------
@@ -117,7 +117,7 @@ body {
 
 //----三大圖的內文----
 .title1 {
-margin-bottom: 295px;
+margin-bottom: 210px;
 letter-spacing:   5px;//调整文字间距
 }
 //----三大圖的內文----
@@ -140,12 +140,19 @@ letter-spacing:   5px;//调整文字间距
 
 
 .jumbotron {
-  background-image:url('http://i.imgur.com/wzzgFqx.jpg');
+  background-image:url('http://i.imgur.com/KHgsY9F.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  padding-bottom: 500px;
+  background-size: auto;
+  background-color: rgba(0,0,0,0.3);
+  text-align: center;
 }
 
+.jumbotron2 {
+  background-image:url('http://i.imgur.com/SOrbv0u.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  // padding-bottom: 500px;
+}
 
 .title {
   color:#000000;
@@ -184,7 +191,15 @@ letter-spacing:   5px;//调整文字间距
 
   }
 
- .container-fluid .jumbotron{
+ .container-fluid .jumbotron  {
+  //  padding-bottom: 395px;//内部的底部边距，这样按钮不会很靠近底部了
+   margin-top: 30px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
+   border-radius: 0;//圆角为0
+  //  border: 10px solid hsla(0,0%,100%,.5);
+  //  background-clip: padding-box;
+ }
+
+ .jumbotron2{
    padding-bottom: 700px;//内部的底部边距，这样按钮不会很靠近底部了
    margin: 0 -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
    border-radius: 0;//圆角为0
@@ -196,7 +211,7 @@ letter-spacing:   5px;//调整文字间距
 
   //---------Background---------
  body {
-    background: url("http://i.imgur.com/5wDbcx9.jpg");
+    background: url("http://i.imgur.com/Lv7dzcu.jpg");
     //这个设定的背景图片可以应用到除了首页这类已经专门设定背景的所有网站页面，免去重复设定背景的烦恼。
 
     background-size: cover;
@@ -208,32 +223,14 @@ letter-spacing:   5px;//调整文字间距
 }
 
 
-  .panel-body {
-      position: absolute;
-      left: -15px;
-      top: 0%;
-      width: 115%;
-      text-align: center;
-      margin-top: -540px;
-    }
 
-  .center {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      width: 100%;
-      text-align: center;
-      font-size: 20px;
-      color: white;
-
-  }
 
     .panel-body2 {
         position: absolute;
-        left: -2px;
+        left: 0px;
         top: 0%;
         text-align: center;
-        margin-top: -270px;
+        // margin-top: -630px;
       }
 
       .center2 {
@@ -246,12 +243,21 @@ letter-spacing:   5px;//调整文字间距
           color: white;
     }
 
-
-        .panel-body3 {
+    .panel-body3 {
             position: absolute;
-            left: -2px;
+            left: 0px;
             top: 0%;
             text-align: center;
-            margin-top: 73px;
-            margin-bottom: 300px;
-          }
+            // margin-top: -280px;
+            // margin-bottom: 230px
+      }
+
+    .center3 {
+              position: absolute;
+              left: 0;
+              top: 50%;
+              width: 100%;
+              text-align: center;
+              font-size: 20px;
+              color: white;
+      }
